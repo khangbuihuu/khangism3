@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- script -->
+    <script src="/assets/js/script.js"></script>
+  </head>
+  <body>
+    <header id="header" class="header"></header>
+    <script>
+      load("#header", "./templates/header.html");
+    </script>
+    <div class="container">
+      <div class="car">
+        <div class="car-item">
+          <img src="/spider.jpg" alt="img" />
+          <a class="card-info">
+            <h3 class="content">WHO IS SPIDERMAN ?</h3>
+            <p class="title">I'm Spiderman</p>
+            <span href="" class="read-more__btn">read more...</span>
+          </a>
+        </div>
+        <div class="car-item">
+          <div class="car-item">
+            <img src="/spider.jpg" alt="img" />
+            <a class="card-info">
+              <h3 class="content">WHAT I CAN ?</h3>
+              <p class="title">I can do evrethink</p>
+              <span href="" class="read-more__btn">read more...</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <footer id="footer"></footer>
+      <script>
+        load("#footer", "./templates/footer.html");
+      </script>
+    </div>
+  </body>
+</html>
